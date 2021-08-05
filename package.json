@@ -1,0 +1,19 @@
+{
+  "name": "@prof/event-emitter",
+  "version": "1.0.0",
+  "description": "Helper class for events management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Profesor08/event-emitter.git"
+  },
+  "author": "Profesor08",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Profesor08/event-emitter/issues"
+  },
+  "homepage": "https://github.com/Profesor08/event-emitter#readme"
+}
