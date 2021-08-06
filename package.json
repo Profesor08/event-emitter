@@ -2,12 +2,11 @@
   "name": "@prof-dev/event-emitter",
   "version": "1.0.2",
   "description": "Helper class for events management",
-  "main": "lib/event-emitter.js",
-  "types": "lib/event-emitter.d.ts",
+  "main": "lib/EventEmitter.js",
+  "types": "lib/EventEmitter.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --build",
-    "clean": "tsc --build --clean"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
