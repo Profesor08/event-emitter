@@ -1,4 +1,4 @@
-export class EventEmitter<EventType extends string, EventData extends unknown> {
+class EventEmitter<EventType extends string, EventData = void> {
   protected events: {
     [key in EventType]?: ((data: EventData) => void)[];
   } = {};

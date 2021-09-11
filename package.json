@@ -1,6 +1,6 @@
 {
   "name": "@prof-dev/event-emitter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helper class for events management",
   "main": "lib/EventEmitter.js",
   "types": "lib/EventEmitter.d.ts",
