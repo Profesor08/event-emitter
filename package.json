@@ -2,8 +2,8 @@
   "name": "@prof-dev/event-emitter",
   "version": "1.0.4",
   "description": "Helper class for events management",
-  "main": "lib/EventEmitter.js",
-  "types": "lib/EventEmitter.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"

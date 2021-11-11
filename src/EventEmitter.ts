@@ -1,4 +1,9 @@
-class EventEmitter<EventType extends string, EventData = void> {
+import { EventEmitterStatic } from "./EventEmitterStatic";
+
+export class EventEmitter<
+  EventType extends string,
+  EventData = void,
+> extends EventEmitterStatic {
   protected events: {
     [key in EventType]?: ((data: EventData) => void)[];
   } = {};
