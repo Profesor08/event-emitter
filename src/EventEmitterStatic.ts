@@ -1,4 +1,4 @@
-export class EventEmitterStatic {
+export abstract class EventEmitterStatic {
   protected static events: {
     [key in string]?: ((data: any) => void)[];
   } = {};
