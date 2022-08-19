@@ -1,13 +1,14 @@
 {
   "name": "@prof-dev/event-emitter",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Helper class for events management",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "prebuild": "rimraf lib",
     "build": "tsc",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
